@@ -1,0 +1,24 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-container {
+    display: flex;
+}
+
+.footer-link {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #707070;
+    text-decoration: none;
+    margin: 52px 41px 48px 0;
+}
+
+.footer-extra-info {
+    display: flex;
+}

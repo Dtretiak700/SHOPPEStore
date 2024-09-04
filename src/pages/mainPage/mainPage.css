@@ -1,0 +1,16 @@
+.mainContainer {
+    width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+    
+.innerContainer {
+    width: 1248px;
+}
+
+hr {
+    border: 1px solid #D8D8D8;
+}

@@ -1,0 +1,9 @@
+.head-container {
+    display: flex;
+    margin-top: 128px;
+}
+
+.main-pic-shop {
+    width: 540px;
+    height: 600px;
+}

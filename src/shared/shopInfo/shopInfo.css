@@ -1,0 +1,50 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 600px;
+}
+
+.title h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.title h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #A18A68;
+    margin-top: 24px;
+}
+
+.customer-review-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 61px;
+}
+
+.review-container {
+    display: flex;
+}
+
+.customer-review-container img {
+    width: 130px;
+    height: 18px;
+    border-radius: 0%;
+    margin-right: 24px;
+}
+
+.customer-review-container h5,p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: 27px;
+    color: #707070;
+    margin-top: 17px;
+}

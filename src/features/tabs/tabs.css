@@ -1,0 +1,29 @@
+.btnTabs {
+    display: flex;
+    margin-bottom: 73px;
+}
+
+.buttonTab {
+    margin-right: 96px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    background: none;
+    border: none;
+    color: #707070;
+}
+
+.buttonTab:focus {
+    border-bottom: 2px solid #000000;
+    color: #000000;
+}
+
+.tabInfo {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    line-height: 27px;
+    margin-bottom: 96px;
+}

@@ -1,0 +1,30 @@
+.heading-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 42.97px;
+    color: #000000;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.heading-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #7F7F7F;
+    text-align: center;
+
+    span {
+        color: #000000;
+    }
+}
+
+.main-head-pic {
+    width: 1248px;
+    height: 646px;
+    margin-top: 39px;
+    border-radius: 8px;
+    margin-bottom: 64px;
+}

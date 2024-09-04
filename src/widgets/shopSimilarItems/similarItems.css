@@ -1,0 +1,47 @@
+.scroll-container {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap;
+    padding: 10px;
+    width: 100%;     
+    box-sizing: border-box;
+    margin-bottom: 250px;
+}
+
+.simItemsHeading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 47px;
+}
+
+.itemsContainer {
+    flex: 0 0 auto;  
+    margin-right: 54px; 
+}
+
+.itemsContainer img {
+    width: 380px;
+    height: 380px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.itemsHead {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.itemsPrice {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #A18A68;
+}

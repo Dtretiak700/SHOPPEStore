@@ -1,0 +1,47 @@
+.extra-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extra-container {
+    width: 670px;
+    margin-bottom: 91px;
+}
+
+.text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 58px;
+}
+
+.small-head-pic {
+    width: 670px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 48px;
+}
+
+.small-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.text-list {
+    list-style: none;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    
+    li {
+        padding: 10px 0;
+    }
+}

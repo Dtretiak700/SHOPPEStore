@@ -1,0 +1,60 @@
+#email {
+    width: 396px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 13px 0;
+    font-family: "DM Sans", sans-serif;
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.arrow {
+    width: 25px;
+    height: 8.74px;
+}
+
+.submit-button {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #000000;
+    padding: 13px 0;
+}
+
+.reset-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 43px;
+    color: #000000;
+    text-align: center;
+}
+
+.input-extra-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.button-reset {
+    width: 500px;
+    height: 53px;
+    border: none;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.83px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+}

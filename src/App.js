@@ -12,7 +12,6 @@ import ShopPage from "./pages/shopPage/ShopPage";
 
 function App() {
   return (
-    <div>
     <Router>
         <div className="nav-container">
             <nav className="navigation">
@@ -31,7 +30,6 @@ function App() {
                     <Route path="/our_story" element={<OurStory />} />
                 </Routes>
         </Router>
-        </div>
   );
 }
 

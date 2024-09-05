@@ -31,7 +31,6 @@ function App() {
                     <Route path="/our_story" element={<OurStory />} />
                 </Routes>
         </Router>
-        <MainPage />
         </div>
   );
 }

@@ -17,7 +17,7 @@ function App() {
             <nav className="navigation">
                 <p className="logo-menu"><span>S</span>HOPPE</p>
                 <div className="links-container">
-                    <Link to="/" className="menu-link">Home</Link>
+                    <Link to="/SHOPPEStore" className="menu-link">Home</Link>
                     <Link to="/shop" className="menu-link">Shop</Link>
                     <Link to="/our_story" className="menu-link">Our Story</Link>
                 </div>
@@ -25,7 +25,7 @@ function App() {
         </div>
 
                 <Routes>
-                    <Route path="/" element={<MainPage />} />
+                    <Route path="/SHOPPEStore" element={<MainPage />} />
                     <Route path="shop" element={<ShopPage />}/>
                     <Route path="/our_story" element={<OurStory />} />
                 </Routes>

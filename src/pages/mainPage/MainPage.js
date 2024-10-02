@@ -1,15 +1,18 @@
+import { useTheme } from "../../features/processes/contextTheme";
 import FollowUs from "../../widgets/followUs/FollowUs";
 import Footer from "../../widgets/footer/Footer";
 import HeaderSliders from "../../widgets/headerSliders/HeaderSliders";
-import Items from "../../widgets/itemsStore/AllProducts";
+import AllProducts from "../../widgets/itemsStore/AllProducts";
 import "./mainPage.css";
 
 const MainPage = () => {
+    const {theme} = useTheme();
+
     return(
-        <div className="mainContainer">
+        <div className={`mainContainer mainContainer_${theme}`}>
             <div className="innerContainer">
                 <HeaderSliders />
-                <Items />
+                <AllProducts />
                 <hr />
                 <FollowUs />
                 <hr />

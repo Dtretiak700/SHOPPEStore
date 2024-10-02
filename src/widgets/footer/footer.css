@@ -22,3 +22,14 @@
 .footer-extra-info {
     display: flex;
 }
+
+.footer-container_dark {
+    background-color: #272727;
+}
+
+@media all and (max-width: 800px) {
+    .footer-container {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}

@@ -1,5 +1,5 @@
 .mainContainer {
-    width: 1440px;
+    width: 100%;
     min-height: 100vh;
     margin: 0 auto;
     background-color: #FFFFFF;
@@ -13,4 +13,18 @@
 
 hr {
     border: 1px solid #D8D8D8;
+}
+
+.mainContainer_dark {
+    background-color: #272727;
+}
+
+@media all and (max-width: 800px) {
+    .innerContainer {
+        width: 750px;
+    }
+
+    hr {
+        display: none;
+    }
 }

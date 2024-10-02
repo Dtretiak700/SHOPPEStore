@@ -3,19 +3,22 @@ import ShopButtons from "../../features/shopButtons/ShopButtons";
 import "./allProducts.css";
 import { useState } from "react";
 import { itemsInfo } from "../../shared/itemsCard/itemsInfo";
+import { useTheme } from "../../features/processes/contextTheme";
 
-const Items = () => {
+const AllProducts = () => {
     const [shopData, setShopData] = useState(itemsInfo);
 
     const filteredItems = (category) => {
         const newItems = itemsInfo.filter(element => element.category === category);
         setShopData(newItems);
     }
+
+    const {theme} = useTheme();
     
     return(
         <div>
             <div className="title-container">
-                <h3 className="shop-title">Shop</h3>
+                <h3 className={`shop-title shop-title_${theme}`}>Shop</h3>
                 <ShopButtons filteredItems={filteredItems} 
                             setShopData={setShopData}
                 />
@@ -37,4 +40,4 @@ const Items = () => {
     )
 }
 
-export default Items;
+export default AllProducts;

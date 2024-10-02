@@ -1,11 +1,10 @@
 .nav-container {
-    width: 1248px;
-    margin-left: 96px;
+    padding: 0 96px;
 }
 
 .navigation {
     min-height: 42px;
-    margin-top: 64px;
+    padding-top: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,4 +34,23 @@
 
 .menu-link:focus {
     border-bottom: 2px solid #000000;
+}
+
+.nav-container_dark {
+    background-color: #272727;
+}
+
+.logo-menu_dark, .menu-link_dark {
+    color: #FFFFFF;
+}
+
+.menu-link_dark:focus {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+@media all and (max-width: 800px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+    }
 }

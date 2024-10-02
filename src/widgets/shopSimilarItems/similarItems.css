@@ -16,6 +16,10 @@
     margin-bottom: 47px;
 }
 
+.simItemsHeading_dark {
+    color: #FFFFFF;
+}
+
 .itemsContainer {
     flex: 0 0 auto;  
     margin-right: 54px; 
@@ -36,6 +40,10 @@
     line-height: 26px;
     color: #000000;
     margin-bottom: 16px;
+}
+
+.itemsHead_dark {
+    color: #FFFFFF;
 }
 
 .itemsPrice {

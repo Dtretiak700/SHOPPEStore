@@ -22,3 +22,9 @@
 .shop-button.active {
     opacity: 1;
 }
+
+@media all and (max-width: 800px) {
+    .shop-button {
+        padding-left: 6px;
+    }
+}

@@ -28,3 +28,13 @@
     border-radius: 8px;
     margin-bottom: 64px;
 }
+
+.heading-title_dark {
+    color: #FFFFFF;
+}
+
+.heading-text_dark {
+    span {
+        color: #FFFFFF;
+    }
+}

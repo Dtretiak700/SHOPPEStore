@@ -1,4 +1,12 @@
 .main-container {
+    background-color: inherit;
+}
+
+.inner-container {
     width: 1248px;
     margin: 0 96px;
+}
+
+.main-container_dark {
+    background-color: #272727;
 }

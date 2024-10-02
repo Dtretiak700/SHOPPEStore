@@ -9,17 +9,22 @@ import MainPage from './pages/mainPage/MainPage';
 import OurStory from './pages/ourStory/OurStory';
 import "./shared/navbarStyle/menu.css";
 import ShopPage from "./pages/shopPage/ShopPage";
+import { ThemeSwitcher } from "./features/themeSwitcher/ThemeSwitcher";
+import { useTheme } from "./features/processes/contextTheme";
 
 function App() {
+  const {theme} = useTheme();
+
   return (
     <Router>
-        <div className="nav-container">
+        <div className={`nav-container nav-container_${theme}`}>
             <nav className="navigation">
-                <p className="logo-menu"><span>S</span>HOPPE</p>
+                <p className={`logo-menu logo-menu_${theme}`}><span>S</span>HOPPE</p>
                 <div className="links-container">
-                    <Link to="/SHOPPEStore" className="menu-link">Home</Link>
-                    <Link to="/shop" className="menu-link">Shop</Link>
-                    <Link to="/our_story" className="menu-link">Our Story</Link>
+                    <Link to="/SHOPPEStore" className={`menu-link menu-link_${theme}`}>Home</Link>
+                    <Link to="/shop" className={`menu-link menu-link_${theme}`}>Shop</Link>
+                    <Link to="/our_story" className={`menu-link menu-link_${theme}`}>Our Story</Link>
+                    <ThemeSwitcher />
                 </div>
             </nav>
         </div>

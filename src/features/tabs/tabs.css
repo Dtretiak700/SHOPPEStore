@@ -19,6 +19,11 @@
     color: #000000;
 }
 
+.buttonTab_dark:focus {
+    border-bottom: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
 .tabInfo {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;

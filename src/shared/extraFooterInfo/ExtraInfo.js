@@ -1,9 +1,12 @@
+import { useTheme } from "../../features/processes/contextTheme";
 import "./extraInfo.css";
 
 const ExtraInfo = () => {
+    const {theme} = useTheme();
+
     return(
         <div className="extra-info-container">
-            <h5 className="extra-text">
+            <h5 className={`extra-text extra-text_${theme}`}>
                 © 2024 SHOPPE. All information and images on this website are used for educational purposes
             </h5>
             <div className="social-media-icons">

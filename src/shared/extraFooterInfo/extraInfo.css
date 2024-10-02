@@ -23,3 +23,18 @@
     margin-bottom: 32px;
 }
 
+.extra-text_dark {
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 800px) {
+    .extra-info-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .extra-text {
+        font-size: 12px;
+    }
+}
+

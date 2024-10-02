@@ -4,10 +4,15 @@
     border-bottom: 1px solid #000000;
     padding: 13px 0;
     font-family: "DM Sans", sans-serif;
-    color: #707070;
+    color: #000000;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
+    background: none;
+}
+
+#email::placeholder {
+    color: #707070;
 }
 
 .arrow {
@@ -57,4 +62,26 @@
     color: #FFFFFF;
     text-align: center;
     background-color: #000000;
+}
+
+#email.email_dark {
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#email.email_dark::placeholder {
+    color: #707070;
+}
+
+.submit-button_dark {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.button-reset_dark {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.input-text_dark {
+    color: #FFFFFF;
 }

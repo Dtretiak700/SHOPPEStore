@@ -5,3 +5,13 @@
     line-height: 35px;
     color: #000000;
 }
+
+.post-title_dark {
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 800px) {
+    .post-title {
+        display: none;
+    }
+}

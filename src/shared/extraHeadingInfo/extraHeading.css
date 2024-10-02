@@ -45,3 +45,7 @@
         padding: 10px 0;
     }
 }
+
+.text_dark, .text-list_dark, .small-title_dark {
+    color: #FFFFFF;
+}

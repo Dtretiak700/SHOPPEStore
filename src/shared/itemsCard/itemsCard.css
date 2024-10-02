@@ -45,3 +45,24 @@
     color: #A18A68;
     margin-top: 16px;
 }
+
+.itemsName_dark {
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 800px) {
+    .item-card {
+        height: 380px;
+        width: 299px;
+    }
+
+    .image-container {
+        width: 269px;
+        height: 258px;
+    }
+
+    .image-container img {
+        width: 269px;
+        height: 258px;
+    }
+}

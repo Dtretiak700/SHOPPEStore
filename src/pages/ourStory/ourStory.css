@@ -1,7 +1,4 @@
 .main-container {
-    width: 1440px;
-    min-height: 100vh;
-    margin: 0 auto;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -9,4 +6,8 @@
 
 .inner-container {
     width: 1248px;
+}
+
+.inner-container_dark {
+    background-color: #272727;
 }

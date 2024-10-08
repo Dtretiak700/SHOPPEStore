@@ -49,8 +49,26 @@
 }
 
 @media all and (max-width: 800px) {
+    .nav-container {
+        padding: 0 24px;
+    }
+
     .navigation {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-link {
+        margin-left: 0;
+        padding-right: 24px;
+    }
+
+    .menu-link:focus {
+        border-bottom: none;
+    }
+
+    .menu-link_dark:focus {
+        border-bottom: none;
     }
 }

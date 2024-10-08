@@ -9,3 +9,27 @@
     margin-right: 62px;
     margin-bottom: 123px;
 }
+
+@media all and (max-width: 800px) {
+    .head-container {
+        flex-direction: column;
+        margin-top: 48px;
+    }
+
+    .main-pic-shop {
+        margin-bottom: 18px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .head-container {
+        align-self: flex-start;
+    }
+
+    .main-pic-shop {
+        width: 360px;
+        height: 340px;
+        margin-bottom: 63px;
+        margin-right: 0;
+    }
+}

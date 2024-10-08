@@ -32,3 +32,31 @@
     line-height: 27px;
     margin-bottom: 96px;
 }
+
+@media all and (max-width: 800px) {
+    .btnTabs {
+        flex-direction: column;
+        margin-top: 28px;
+    }
+
+    .tabInfo-sm {
+        width: 550px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .tabInfo-sm {
+        width: 330px;
+        display: flex;
+        align-self: flex-start;
+    }
+
+    .tabInfo {
+        font-size: 12px;
+        margin-bottom: 66px;
+    }
+
+    .btnTabs {
+        align-self: flex-start;
+    }
+}

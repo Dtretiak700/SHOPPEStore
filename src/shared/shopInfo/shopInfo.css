@@ -56,4 +56,10 @@
     color: #FFFFFF;
 }
 
+@media all and (max-width: 800px) {
+    .customer-review-container {
+        display: none;
+    }
+}
+
 

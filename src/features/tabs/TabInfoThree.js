@@ -1,6 +1,6 @@
 const TabInfoThree = () => {
     return(
-        <div className="tabInfo">
+        <div className="tabInfo-sm">
             <p className="tabInfo">No reviews yet</p>
         </div>
     )

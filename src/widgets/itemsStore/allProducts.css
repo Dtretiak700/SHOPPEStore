@@ -35,7 +35,14 @@
 
     .items-container {
         grid-template-columns: repeat(2, 1fr); 
-        gap: 20px 0; 
+        gap: 40px 0; 
         margin-bottom: 70px;
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .items-container {
+        grid-template-columns: 1fr;         
     }
 }

@@ -49,3 +49,19 @@
 .text_dark, .text-list_dark, .small-title_dark {
     color: #FFFFFF;
 }
+
+@media all and (max-width: 500px) {
+    .extra-container {
+        width: 370px;
+        margin-bottom: 61px;
+    }
+
+    .text, .text-list {
+        font-size: 12px;
+    }
+
+    .small-head-pic {
+        width: 370px;
+        height: 130px;
+    }
+}

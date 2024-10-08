@@ -85,3 +85,21 @@
 .input-text_dark {
     color: #FFFFFF;
 }
+
+@media all and (max-width: 500px) {
+    #email {
+        width: 250px;
+    }
+
+    .input-text {
+        font-size: 13px;
+    }
+
+    .input-extra-text {
+        font-size: 10px;
+    }
+
+    .button-reset {
+        width: 300px;
+    }
+}

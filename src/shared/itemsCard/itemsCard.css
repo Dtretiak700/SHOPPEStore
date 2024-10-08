@@ -53,16 +53,16 @@
 @media all and (max-width: 800px) {
     .item-card {
         height: 380px;
-        width: 299px;
+        width: 285px;
     }
 
     .image-container {
-        width: 269px;
+        width: 258px;
         height: 258px;
     }
 
     .image-container img {
-        width: 269px;
+        width: 258px;
         height: 258px;
     }
 }

@@ -28,3 +28,11 @@
         padding-left: 6px;
     }
 }
+
+@media all and (max-width: 500px) {
+    .buttons-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -38,3 +38,21 @@
         color: #FFFFFF;
     }
 }
+
+@media all and (max-width: 800px) {
+    .main-head-pic {
+        width: 750px;
+        height: 348px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .heading-title {
+        font-size: 23px;
+    }
+
+    .main-head-pic {
+        width: 380px;
+        height: 248px;
+    }
+}

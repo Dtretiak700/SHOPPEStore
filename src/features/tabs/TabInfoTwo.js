@@ -1,6 +1,6 @@
 const TabInfoTwo = () => {
     return(
-        <div>
+        <div className="tabInfo-sm">
             <ul className="tabInfo">
                 <li>Material: 100% Genuine Gold (Available in Yellow, White, and Rose Gold)</li>
                 <li>Weight: Varies by style (Lightweight and comfortable for all-day wear)</li>

@@ -12,7 +12,7 @@ const SimilarItems = () => {
     const { theme } = useTheme();
 
     return(
-        <div>
+        <div className="main-scroll-container">
             <h2 className={`simItemsHeading simItemsHeading_${theme}`}>Similar Items</h2>
             <div className="scroll-container">
                 <div className="itemsContainer">

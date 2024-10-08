@@ -53,3 +53,51 @@
     line-height: 26px;
     color: #A18A68;
 }
+
+@media all and (max-width: 800px) {
+    .main-scroll-container {
+        width: 750px;
+    }
+
+    .scroll-container {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .itemsContainer {
+        margin-right: 20px; 
+    }
+    
+    .itemsContainer img {
+        width: 250px; 
+        height: 250px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .main-scroll-container {
+        width: 450px;
+    }
+
+    .scroll-container {
+        width: 70%;
+        margin: 10px;
+    }
+
+    .itemsContainer {
+        margin-right: 10px; 
+    }
+
+    .itemsContainer img {
+        width: 150px; 
+        height: 150px;
+    }
+
+    .itemsHead {
+        font-size: 14px;
+    }
+
+    .itemsPrice {
+        font-size: 13px;
+    }
+}

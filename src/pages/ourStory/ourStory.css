@@ -11,3 +11,10 @@
 .inner-container_dark {
     background-color: #272727;
 }
+
+
+@media all and (max-width: 800px) {
+    .inner-container {
+        width: 750px;
+    }
+}

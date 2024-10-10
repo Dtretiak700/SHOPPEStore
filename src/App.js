@@ -21,7 +21,7 @@ function App() {
             <nav className="navigation">
                 <p className={`logo-menu logo-menu_${theme}`}><span>S</span>HOPPE</p>
                 <div className="links-container">
-                    <Link to="/SHOPPEStore" className={`menu-link menu-link_${theme}`}>Home</Link>
+                    <Link to="/" className={`menu-link menu-link_${theme}`}>Home</Link>
                     <Link to="/shop" className={`menu-link menu-link_${theme}`}>Shop</Link>
                     <Link to="/our_story" className={`menu-link menu-link_${theme}`}>Our Story</Link>
                     <ThemeSwitcher />
@@ -30,7 +30,7 @@ function App() {
         </div>
 
                 <Routes>
-                    <Route path="/SHOPPEStore" element={<MainPage />} />
+                    <Route path="/" element={<MainPage />} />
                     <Route path="shop" element={<ShopPage />}/>
                     <Route path="/our_story" element={<OurStory />} />
                 </Routes>

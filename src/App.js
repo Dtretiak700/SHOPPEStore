@@ -2,22 +2,24 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  // Link
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainPage from './pages/mainPage/MainPage';
 import OurStory from './pages/ourStory/OurStory';
-import "./shared/navbarStyle/menu.css";
+// import "./features/navbar/menu.css";
 import ShopPage from "./pages/shopPage/ShopPage";
-import { ThemeSwitcher } from "./features/themeSwitcher/ThemeSwitcher";
-import { useTheme } from "./features/processes/contextTheme";
+// import { ThemeSwitcher } from "./features/themeSwitcher/ThemeSwitcher";
+// import { useTheme } from "./features/processes/contextTheme";
+import Navbar from "./features/navbar/Navbar";
+
 
 function App() {
-  const {theme} = useTheme();
+  // const {theme} = useTheme();
 
   return (
     <Router>
-        <div className={`nav-container nav-container_${theme}`}>
+        {/* <div className={`nav-container nav-container_${theme}`}>
             <nav className="navigation">
                 <p className={`logo-menu logo-menu_${theme}`}><span>S</span>HOPPE</p>
                 <div className="links-container">
@@ -27,7 +29,9 @@ function App() {
                     <ThemeSwitcher />
                 </div>
             </nav>
-        </div>
+        </div> */}
+
+              <Navbar />
 
                 <Routes>
                     <Route path="/" element={<MainPage />} />

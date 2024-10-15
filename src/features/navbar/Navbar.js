@@ -1,10 +1,7 @@
 import { useTheme } from "../processes/contextTheme";
 import { ThemeSwitcher } from "../themeSwitcher/ThemeSwitcher";
 import "../../features/navbar/menu.css";
-import {
-    BrowserRouter as 
-    Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {

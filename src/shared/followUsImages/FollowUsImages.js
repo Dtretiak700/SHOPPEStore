@@ -1,5 +1,5 @@
 import "./followUsImages.css";
-import { instagramData } from "./instagramData";
+import { instagramData } from "../data/instagramData";
 
 const FollowUsImages = () => {
     return(

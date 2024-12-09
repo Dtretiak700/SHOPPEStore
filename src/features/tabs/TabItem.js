@@ -1,4 +1,4 @@
-import { useTheme } from "../processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 import "./tabs.css";
 
 const TabItem = ({tab, index, setActiveTab}) => {

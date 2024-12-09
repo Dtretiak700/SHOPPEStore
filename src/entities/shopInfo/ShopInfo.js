@@ -1,6 +1,6 @@
 import "./shopInfo.css";
-import reviewStars from "../assets/images/Star.png";
-import { useTheme } from "../../features/processes/contextTheme";
+import reviewStars from "../../shared/assets/images/Star.png";
+import { useTheme } from "../../processes/contextTheme";
 
 const ShopInfo = () => {
     const { theme } = useTheme();

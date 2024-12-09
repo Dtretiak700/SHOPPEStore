@@ -1,6 +1,6 @@
 import "./storyHeading.css";
-import headingImage from "../assets/images/storyHead.png";
-import { useTheme } from "../../features/processes/contextTheme";
+import headingImage from "../../shared/assets/images/storyHead.png";
+import { useTheme } from "../../processes/contextTheme";
 
 const StoryHeading = () => {
     const {theme} = useTheme();

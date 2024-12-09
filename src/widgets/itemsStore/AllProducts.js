@@ -2,8 +2,8 @@ import ItemsCard from "../../shared/itemsCard/ItemsCard";
 import ShopButtons from "../../features/shopButtons/ShopButtons";
 import "./allProducts.css";
 import { useState } from "react";
-import { itemsInfo } from "../../shared/itemsCard/itemsInfo";
-import { useTheme } from "../../features/processes/contextTheme";
+import { itemsInfo } from "../../shared/data/itemsInfo";
+import { useTheme } from "../../processes/contextTheme";
 
 const AllProducts = () => {
     const [shopData, setShopData] = useState(itemsInfo);

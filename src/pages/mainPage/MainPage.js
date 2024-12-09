@@ -1,4 +1,4 @@
-import { useTheme } from "../../features/processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 import FollowUs from "../../widgets/followUs/FollowUs";
 import Footer from "../../widgets/footer/Footer";
 import HeaderSliders from "../../widgets/headerSliders/HeaderSliders";

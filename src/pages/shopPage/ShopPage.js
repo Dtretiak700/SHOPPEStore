@@ -7,7 +7,7 @@ import TabInfoTwo from "../../features/tabs/TabInfoTwo";
 import TabInfoThree from "../../features/tabs/TabInfoThree";
 import SimilarItems from "../../widgets/shopSimilarItems/SimilarItems";
 import Footer from "../../widgets/footer/Footer";
-import { useTheme } from "../../features/processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 
 const ShopPage = () => {
     const [activeTab, setActiveTab] = useState(0);

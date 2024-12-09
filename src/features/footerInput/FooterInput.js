@@ -1,7 +1,7 @@
 import { useForm } from "@formspree/react";
 import "./footerInput.css";
 import arrowButton from "../../shared/assets/images/buttonInput.png";
-import { useTheme } from "../processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 
 const FooterInput = () => {
     const [state, handleSubmit, reset] = useForm('xleqapwj');

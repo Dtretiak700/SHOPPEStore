@@ -1,5 +1,5 @@
 import FooterInput from "../../features/footerInput/FooterInput";
-import { useTheme } from "../../features/processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 import ExtraInfo from "../../shared/extraFooterInfo/ExtraInfo";
 import "./footer.css";
 

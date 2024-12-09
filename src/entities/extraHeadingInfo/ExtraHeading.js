@@ -1,6 +1,6 @@
 import "./extraHeading.css";
-import headSmall from "../assets/images/headImageSmall.png";
-import { useTheme } from "../../features/processes/contextTheme";
+import headSmall from "../../shared/assets/images/headImageSmall.png";
+import { useTheme } from "../../processes/contextTheme";
 
 const ExtraHeading = () => {
     const {theme} = useTheme();

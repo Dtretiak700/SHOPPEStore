@@ -1,4 +1,4 @@
-import { useTheme } from "../../features/processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 import "./itemsCard.css";
 
 const ItemsCard = ({ itemPic, name, price }) => {

@@ -1,4 +1,4 @@
-import { useTheme } from "../../features/processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 import FollowUsImages from "../../shared/followUsImages/FollowUsImages";
 import "./followUs.css";
 

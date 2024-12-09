@@ -1,6 +1,6 @@
-import { useTheme } from "../processes/contextTheme";
-import { ThemeSwitcher } from "../themeSwitcher/ThemeSwitcher";
-import "../../features/navbar/menu.css";
+import { useTheme } from "../../processes/contextTheme";
+import { ThemeSwitcher } from "../../features/themeSwitcher/ThemeSwitcher";
+import "./menu.css";
 import { Link } from "react-router-dom";
 
 

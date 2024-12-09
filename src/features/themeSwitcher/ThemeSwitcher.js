@@ -1,4 +1,4 @@
-import { useTheme } from "../processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 import "./switcher.css";
 
 export const ThemeSwitcher = () => {

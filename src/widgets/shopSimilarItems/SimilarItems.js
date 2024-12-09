@@ -5,7 +5,7 @@ import similarItemThree from "../../shared/assets/images/itemHairSet.png";
 import similarItemFour from "../../shared/assets/images/itemHairSetGold.png";
 import similarItemFive from "../../shared/assets/images/itemHairSetThree.png";
 import similarItemSix from "../../shared/assets/images/itemNecklace.png";
-import { useTheme } from "../../features/processes/contextTheme";
+import { useTheme } from "../../processes/contextTheme";
 
 
 const SimilarItems = () => {

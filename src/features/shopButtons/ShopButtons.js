@@ -1,5 +1,5 @@
 import "./shopButtons.css";
-import { itemsInfo } from "../../shared/itemsCard/itemsInfo";
+import { itemsInfo } from "../../shared/data/itemsInfo";
 
 const ShopButtons = ({ filteredItems, setShopData }) => {
     return(

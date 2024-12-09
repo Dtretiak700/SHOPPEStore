@@ -2,7 +2,6 @@ import TabItem from "./TabItem";
 import "./tabs.css";
 
 const Tabs = ({setActiveTab}) => {
-
     return(
         <div className="btnTabs">
             {

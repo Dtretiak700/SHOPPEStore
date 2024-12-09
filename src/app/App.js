@@ -4,10 +4,10 @@ import {
   Route
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MainPage from './pages/mainPage/MainPage';
-import OurStory from './pages/ourStory/OurStory';
-import ShopPage from "./pages/shopPage/ShopPage";
-import Navbar from "./features/navbar/Navbar";
+import MainPage from '../pages/mainPage/MainPage';
+import OurStory from '../pages/ourStory/OurStory';
+import ShopPage from "../pages/shopPage/ShopPage";
+import Navbar from "../widgets/navbar/Navbar";
 
 
 function App() {

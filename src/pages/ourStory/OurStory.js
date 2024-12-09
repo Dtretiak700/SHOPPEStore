@@ -1,6 +1,6 @@
-import { useTheme } from "../../features/processes/contextTheme";
-import ExtraHeading from "../../shared/extraHeadingInfo/ExtraHeading";
-import StoryHeading from "../../shared/storyHeading/StoryHeading";
+import { useTheme } from "../../processes/contextTheme";
+import ExtraHeading from "../../entities/extraHeadingInfo/ExtraHeading";
+import StoryHeading from "../../entities/storyHeading/StoryHeading";
 import Footer from "../../widgets/footer/Footer";
 import "./ourStory.css";
 
